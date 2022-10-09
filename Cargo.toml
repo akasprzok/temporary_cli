@@ -1,0 +1,13 @@
+[package]
+name = "temporary_cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andreas Kasprzok <akasprzok@gmail.com>"]
+description = "All about Andreas"
+homepage = "https://temporaryhack.com"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.10", features = ["derive"] }
